@@ -1,6 +1,7 @@
 import unittest
 
 from data_structures.linkedlist import LinkedList
+from data_structures.node import Node
 
 class TestLinkedList(unittest.TestCase):
     def test_list(self):
@@ -26,6 +27,8 @@ class TestLinkedList(unittest.TestCase):
         self.assertEqual(linkedlist.head.next.next, None)
         self.assertEqual(linkedlist.pop_first(), "First")
         self.assertEqual(linkedlist.pop_last(), "Second")
+
+        print("Linked list is working fine")
 
 
 if __name__ == '__main__':

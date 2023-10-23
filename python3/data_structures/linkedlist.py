@@ -1,9 +1,4 @@
-#from node import Node
-
-class Node:
-    def __init__(self, val=None, next=None):
-        self.val = val
-        self.next = None
+from .node import Node
 
 class LinkedList:
     def __init__(self):
@@ -65,6 +60,3 @@ class LinkedList:
             val = last.val
             prev.next = None
             return val
-
-
-    
