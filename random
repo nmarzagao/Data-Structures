@@ -1,0 +1,13 @@
+#!/bin/python3
+
+from random import randint
+
+langs = ['Python3', 'C', 'Cpp', 'Java', 'Php', 'Ruby', 'D', 'Pascal']
+
+structs = ['Stack', 'List', 'Queue']
+
+typee = ['Static', 'Dynamic']
+
+
+print(f"Write a {typee[randint(0, len(typee) - 1)]} {structs[randint(0, len(structs) - 1)]} in {langs[randint(0, len(langs) - 1)]}")
+
