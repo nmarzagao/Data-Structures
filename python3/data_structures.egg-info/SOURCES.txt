@@ -1,7 +1,0 @@
-setup.py
-data_structures/__init__.py
-data_structures/calculate.py
-data_structures.egg-info/PKG-INFO
-data_structures.egg-info/SOURCES.txt
-data_structures.egg-info/dependency_links.txt
-data_structures.egg-info/top_level.txt

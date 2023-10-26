@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo Cleaning all .class files
+
+rm -rf com/datastructures/*.class
+rm -rf tests/*.class
+rm -rf *.class

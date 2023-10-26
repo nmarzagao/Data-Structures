@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "running all tests..."
+python3 -m unittest discover
